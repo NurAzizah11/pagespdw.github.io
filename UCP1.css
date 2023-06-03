@@ -1,0 +1,29 @@
+.carousel {
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    max-width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel img:not(:first-child) {
+    margin-left: -50%;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+  }
+    
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
